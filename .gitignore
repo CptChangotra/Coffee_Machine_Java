@@ -15,3 +15,16 @@ out/
 
 # Course config files
 *.yaml
+
+# --- Custom source file rules ---
+
+# 1. Ignore the main content directories by default
+/Topics/
+/Coffee Machine Simulator with Java/*
+
+# 2. Create exceptions to keep only the '.../task/src/machine' directory
+!/Coffee Machine Simulator with Java/task/
+/Coffee Machine Simulator with Java/task/*
+!/Coffee Machine Simulator with Java/task/src/
+/Coffee Machine Simulator with Java/task/src/*
+!/Coffee Machine Simulator with Java/task/src/machine/

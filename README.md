@@ -35,21 +35,11 @@ This program models a coffee machine that can process user commands to buy coffe
    git clone https://github.com/CptChangotra/Coffee_Machine_Java.git
    ```
 
-2. Navigate to the project directory:
-   ```bash
-   cd "Coffee_Machine_Java/Coffee Machine Simulator with Java/task"
-   ```
+2. Open it in your IDE
+   
+3. Navigate to Coffee Machine Simulator with Java/task/src/machine/Main.java
 
-3. Compile the Java files (assuming source files are in a `src` folder or similar structure within the task directory):
-   ```bash
-   javac -d out src/machine/*.java
-   ```
-
-4. Run the application:
-   ```bash
-   java -cp out machine.CoffeeMachine
-   ```
-   *(Note: Adjust the package path `machine.CoffeeMachine` if your main class is located elsewhere).*
+4. Run main
 
 ## 💻 Usage Example
 
@@ -83,3 +73,4 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 This project is part of the **Hyperskill (JetBrains Academy)** curriculum.
 Based on the project: [Coffee Machine Simulator with Java](https://hyperskill.org/projects/33)
 ```
+
